@@ -757,7 +757,7 @@ a:active {
 }
 /* ---------- headings ---------------------------------------------- */
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   line-height: 1.28888889em;
   margin-bottom: 0.64444444em;
   font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -765,13 +765,12 @@ h1 {
   font-style: normal;
   color: #eb302e;
   text-decoration: none;
-  text-transform: uppercase;
   text-align: center;
   word-wrap: break-word;
 }
 @media screen and (min-width: 780px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 1.28888889em;
     margin-bottom: 0.32222222em;
   }
