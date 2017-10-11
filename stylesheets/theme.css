@@ -899,34 +899,6 @@ hr.red {
  * top to bottom styling
  * ================================================================== */
 /* ---------- header ------------------------------------------------ */
-#header .kiss-logo {
-  position: relative;
-  z-index: 1;
-  width: 40%;
-  max-width: 180px;
-  background-color: #fff;
-  border-radius: 50%;
-  padding-left: 8%;
-  margin-left: -2%;
-  box-sizing: border-box;
-}
-@media screen and (min-width: 560px) {
-  #header .kiss-logo {
-    width: 30%;
-    max-width: 250px;
-    padding-left: 6%;
-    margin-left: -3%;
-  }
-}
-@media screen and (min-width: 780px) {
-  #header .kiss-logo {
-    background-color: transparent;
-    max-width: none;
-    border-radius: 0;
-    padding: 0;
-    margin: 0;
-  }
-}
 #header .button {
   position: absolute;
   top: 0;
@@ -947,22 +919,10 @@ hr.red {
 }
 /* ---------- main -------------------------------------------------- */
 #main {
-  padding-top: 5%;
   padding-bottom: 4.35rem;
 }
-@media screen and (min-width: 780px) {
-  #main {
-    padding-top: 2rem;
-  }
-}
 #banner {
-  margin-top: -15%;
   margin-bottom: 2rem;
-}
-@media screen and (min-width: 780px) {
-  #banner {
-    margin-top: -7.8rem;
-  }
 }
 @media screen and (max-width: 560px) {
   #banner.left-on-mobile,
