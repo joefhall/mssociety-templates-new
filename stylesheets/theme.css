@@ -1191,6 +1191,9 @@ a.button,
   box-sizing: border-box;
   border-radius: 0.5rem;
 }
+.panel-button a.button {
+  border: solid 5px #ef662f;
+}
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -1208,6 +1211,11 @@ a.button:focus,
   background-color: #D82921;
   background-position: right bottom;
   color: #ffffff;
+}
+.panel-button a.button:hover, .panel-button a.button:active {
+  background-color: #ffffff;
+  color: #ef662f;
+  border: solid 5px #ef662f;
 }
 input[type="submit"]:active,
 input[type="button"]:active,
