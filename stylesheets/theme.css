@@ -1,3 +1,15 @@
+/*
+ * Import fonts
+ */
+@import url("//hello.myfonts.net/count/31f53d");
+/** @license MyFonts Webfont Build ID 3274045, 2016-08-24T09:02:08-0400 The fonts listed in this notice are subject to the End User License Agreement(s) entered into by the website owner. All other parties are explicitly restricted from using the Licensed Webfonts(s). You may obtain a valid license at the URLs below. Webfont: DSariMedium by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/medium/ Webfont: DSariBold by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/bold/ Webfont: DSariBook by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/book/ License: http://www.myfonts.com/viewlicense?type=web&buildid=3274045 Licensed pageviews: 1,000,000 Webfonts copyright: Copyright (c) 2014 by Diego Aravena. All rights reserved. Ã‚Â© 2016 MyFonts Inc */
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'DSariMedium';
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000");
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000?#iefix") format("embedded-opentype"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff2?v=1472056067000") format("woff2"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff?v=1472056065000") format("woff"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.ttf?v=1472056063000") format("truetype");
+}
+
 /* ########## style.less ############################################
  *
  * This file is for everything that's REALLY site specific, not
@@ -11,17 +23,17 @@
   font-style: normal;
 }
 .sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 .sansb {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 .sansi {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: italic;
 }
@@ -230,7 +242,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #060606;
 }
 /* =============================================================================
@@ -280,8 +292,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  _font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  _font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
 /* Improve readability of pre-formatted text in all browsers */
@@ -686,7 +698,7 @@ html {
 body {
   background-color: #fff;
   color: #060606;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -760,7 +772,7 @@ h1 {
   font-size: 1.75rem;
   line-height: 1.28888889em;
   margin-bottom: 0.64444444em;
-  font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariHeavy", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #eb302e;
@@ -779,7 +791,7 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.43333333em;
   margin-bottom: 0.96666667em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #eb302e;
@@ -798,7 +810,7 @@ legend {
   font-size: 1.25rem;
   line-height: 1.16em;
   margin-bottom: 1.16em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -808,7 +820,7 @@ h4 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -818,7 +830,7 @@ h5 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -827,7 +839,7 @@ h6 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #060606;
@@ -1163,7 +1175,7 @@ a.button,
   font-size: 1.4rem;
   line-height: 1.03571429em;
   margin-bottom: 1.03571429em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   text-transform: uppercase;
@@ -1243,7 +1255,7 @@ select,
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 0;
@@ -1262,7 +1274,7 @@ input[type="password"],
 input[type="search"],
 input[type="tel"],
 input[type="url"] {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
@@ -1304,7 +1316,7 @@ label,
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   display: block;
@@ -1359,7 +1371,7 @@ input[type="checkbox"] {
   float: none;
   display: block;
   margin-left: 2.175rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
@@ -1487,7 +1499,7 @@ div[id^="Marketing_permission"] .picker-radio {
   display: none;
 }
 .eaErrorMessage {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #ffffff;
@@ -1539,7 +1551,7 @@ div[id^="Marketing_permission"] .picker-radio {
 .ea-error-block ul,
 .ea-error-block ol,
 .ea-error-block p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #d9362f;
@@ -1551,7 +1563,7 @@ div[id^="Marketing_permission"] .picker-radio {
   margin-bottom: 1.45rem;
 }
 #eaerrors a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #ffffff;
@@ -1565,7 +1577,7 @@ div[id^="Marketing_permission"] .picker-radio {
   left: 35%;
   z-index: 200;
   color: #060606;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   text-align: center;
