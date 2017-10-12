@@ -11,24 +11,19 @@
   font-style: normal;
 }
 .sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 .sansb {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 .sansi {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: italic;
-}
-.brush {
-  font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 .small {
   font-size: 0.8rem;
@@ -230,7 +225,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #060606;
 }
 /* =============================================================================
@@ -280,8 +275,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  _font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  _font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
 /* Improve readability of pre-formatted text in all browsers */
@@ -662,8 +657,7 @@ button:not(.small),
 }
 /* ---------- panels ------------------------------------------------ */
 .panels {
-  width: 88%;
-  max-width: 40rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   zoom: 1;
@@ -686,7 +680,7 @@ html {
 body {
   background-color: #fff;
   color: #060606;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -737,7 +731,7 @@ br[clear="all"] {
 a,
 a:link,
 a:visited {
-  color: #eb302e;
+  color: #ef662f;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -745,33 +739,32 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #ee504f;
+  color: #000000;
   font-weight: normal;
   font-style: normal;
   text-decoration: underline;
   outline: none;
 }
 a:active {
-  color: #e91917;
+  color: #000000;
   outline: none;
 }
 /* ---------- headings ---------------------------------------------- */
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   line-height: 1.28888889em;
   margin-bottom: 0.64444444em;
-  font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariHeavy", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #eb302e;
+  color: #ef662f;
   text-decoration: none;
-  text-transform: uppercase;
   text-align: center;
   word-wrap: break-word;
 }
 @media screen and (min-width: 780px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 1.28888889em;
     margin-bottom: 0.32222222em;
   }
@@ -780,12 +773,11 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.43333333em;
   margin-bottom: 0.96666667em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #eb302e;
+  color: #ef662f;
   text-decoration: none;
-  text-transform: uppercase;
 }
 @media screen and (min-width: 780px) {
   h2 {
@@ -799,7 +791,7 @@ legend {
   font-size: 1.25rem;
   line-height: 1.16em;
   margin-bottom: 1.16em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -809,7 +801,7 @@ h4 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -819,7 +811,7 @@ h5 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #060606;
@@ -828,7 +820,7 @@ h6 {
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #060606;
@@ -899,34 +891,6 @@ hr.red {
  * top to bottom styling
  * ================================================================== */
 /* ---------- header ------------------------------------------------ */
-#header .kiss-logo {
-  position: relative;
-  z-index: 1;
-  width: 40%;
-  max-width: 180px;
-  background-color: #fff;
-  border-radius: 50%;
-  padding-left: 8%;
-  margin-left: -2%;
-  box-sizing: border-box;
-}
-@media screen and (min-width: 560px) {
-  #header .kiss-logo {
-    width: 30%;
-    max-width: 250px;
-    padding-left: 6%;
-    margin-left: -3%;
-  }
-}
-@media screen and (min-width: 780px) {
-  #header .kiss-logo {
-    background-color: transparent;
-    max-width: none;
-    border-radius: 0;
-    padding: 0;
-    margin: 0;
-  }
-}
 #header .button {
   position: absolute;
   top: 0;
@@ -947,22 +911,10 @@ hr.red {
 }
 /* ---------- main -------------------------------------------------- */
 #main {
-  padding-top: 5%;
   padding-bottom: 4.35rem;
 }
-@media screen and (min-width: 780px) {
-  #main {
-    padding-top: 2rem;
-  }
-}
 #banner {
-  margin-top: -15%;
   margin-bottom: 2rem;
-}
-@media screen and (min-width: 780px) {
-  #banner {
-    margin-top: -7.8rem;
-  }
 }
 @media screen and (max-width: 560px) {
   #banner.left-on-mobile,
@@ -1069,15 +1021,13 @@ hr.red {
 }
 @media screen and (min-width: 780px) {
   .panel {
-    width: 48%;
+    width: 32%;
     max-width: none;
     float: left;
     margin: 1.45rem 2%;
-  }
-  .panel:nth-child(odd) {
     margin-left: 0;
   }
-  .panel:nth-child(even) {
+  .panel:nth-child(3n) {
     margin-right: 0;
   }
 }
@@ -1204,7 +1154,7 @@ a.button,
   font-size: 1.4rem;
   line-height: 1.03571429em;
   margin-bottom: 1.03571429em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   text-transform: uppercase;
@@ -1212,13 +1162,16 @@ a.button,
   white-space: normal;
   text-align: center;
   display: block;
-  background: url("../images/button_grunge_bg.png") no-repeat left bottom #eb302e;
+  background: url("../images/button_grunge_bg.png") no-repeat left bottom #ef662f;
   background-position: right -600px bottom;
   padding: 1.8125rem 0.5em;
   color: #ffffff;
   border: none;
   box-sizing: border-box;
   border-radius: 0.5rem;
+}
+.panel-button a.button, button.submitbutton {
+  border: solid 5px #ef662f;
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -1234,9 +1187,14 @@ button:focus,
 a.button:focus,
 .ui-body-o a.button:hover,
 .ui-body-o a.button:focus {
-  background-color: #D82921;
+  background-color: #000000;
   background-position: right bottom;
   color: #ffffff;
+}
+.panel-button a.button:hover, .panel-button a.button:active, button.submitbutton:hover, button.submitbutton:active {
+  background-color: #ffffff;
+  color: #ef662f;
+  border: solid 5px #ef662f;
 }
 input[type="submit"]:active,
 input[type="button"]:active,
@@ -1244,7 +1202,7 @@ input[type="reset"]:active,
 button:active,
 .button:active,
 a.button:active {
-  background-color: #D82921;
+  background-color: #000000;
   color: #ffffff;
   opacity: 0.9;
 }
@@ -1284,7 +1242,7 @@ select,
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 0;
@@ -1303,7 +1261,7 @@ input[type="password"],
 input[type="search"],
 input[type="tel"],
 input[type="url"] {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
@@ -1345,7 +1303,7 @@ label,
   font-size: 1rem;
   line-height: 1.45em;
   margin-bottom: 1.45em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   display: block;
@@ -1400,7 +1358,7 @@ input[type="checkbox"] {
   float: none;
   display: block;
   margin-left: 2.175rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
@@ -1528,11 +1486,11 @@ div[id^="Marketing_permission"] .picker-radio {
   display: none;
 }
 .eaErrorMessage {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #ffffff;
-  background-color: #eb302e;
+  background-color: #ef662f;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -1547,14 +1505,14 @@ div[id^="Marketing_permission"] .picker-radio {
 .validationError textarea,
 .validationError select,
 .validationError .selecter .selecter-selected {
-  border-color: #eb302e;
+  border-color: #ef662f;
 }
 .validationError .eaErrorMessage {
   padding: 0.4625rem 0.7rem 0.3625rem;
   margin: -0.1rem 0.1rem 0;
 }
 .eaFieldErrorHighlightColor {
-  background-color: #eb302e;
+  background-color: #ef662f;
   padding: 10px;
   color: #ffffff;
   margin-bottom: 10px;
@@ -1574,13 +1532,13 @@ div[id^="Marketing_permission"] .picker-radio {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
-  border: 1px dashed #eb302e;
+  border: 1px dashed #ef662f;
   border-radius: 4px;
 }
 .ea-error-block ul,
 .ea-error-block ol,
 .ea-error-block p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #d9362f;
@@ -1592,7 +1550,7 @@ div[id^="Marketing_permission"] .picker-radio {
   margin-bottom: 1.45rem;
 }
 #eaerrors a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #ffffff;
@@ -1606,7 +1564,7 @@ div[id^="Marketing_permission"] .picker-radio {
   left: 35%;
   z-index: 200;
   color: #060606;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   text-align: center;

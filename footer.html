@@ -26,3 +26,15 @@
 
 </body>
 </html>
+
+<script>
+$("#OtherInput").attr("maxlength","255");  
+</script>
+<script type='text/javascript'> 
+  if (document.forms && createXMLRequest() != null) {
+    var jsEnabled = document.getElementById('ea_javascript_enabled');
+    if(jsEnabled) { jsEnabled.value='true'; }
+    var url = '/ea-action/form.cache.do?campaignId=76371&formId=20578';
+    $.post(url);
+  }
+</script>
