@@ -1,0 +1,38 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3271199, 2016-08-19T10:16:28-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: DSariHeavy by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/dsari/heavy/
+ * 
+ * Webfont: DSariSemiBold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/dsari/semi-bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3271199
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) 2014 by Diego Aravena. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/31ea1f");
+
+@font-face {
+  font-family: 'DSariHeavy';
+  src: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31EA1F_0_0.eot?v=1471617176000');
+  src: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31EA1F_0_0.eot?v=1471617176000?#iefix') format('embedded-opentype'),url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31EA1F_0_0.woff2?v=1471617188000') format('woff2'),url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31EA1F_0_0.woff?v=1471617185000') format('woff'),url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31EA1F_0_0.ttf?v=1471617179000') format('truetype');
+}
+
+@font-face {
+  font-family: 'DSariMedium';
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000");
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000?#iefix") format("embedded-opentype"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff2?v=1472056067000") format("woff2"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff?v=1472056065000") format("woff"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.ttf?v=1472056063000") format("truetype");
+}

@@ -1,15 +1,3 @@
-/*
- * Import fonts
- */
-@import url("//hello.myfonts.net/count/31f53d");
-/** @license MyFonts Webfont Build ID 3274045, 2016-08-24T09:02:08-0400 The fonts listed in this notice are subject to the End User License Agreement(s) entered into by the website owner. All other parties are explicitly restricted from using the Licensed Webfonts(s). You may obtain a valid license at the URLs below. Webfont: DSariMedium by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/medium/ Webfont: DSariBold by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/bold/ Webfont: DSariBook by Latinotype URL: http://www.myfonts.com/fonts/latinotype/dsari/book/ License: http://www.myfonts.com/viewlicense?type=web&buildid=3274045 Licensed pageviews: 1,000,000 Webfonts copyright: Copyright (c) 2014 by Diego Aravena. All rights reserved. Ã‚Â© 2016 MyFonts Inc */
-/* @import must be at top of file, otherwise CSS will not work */
-@font-face {
-  font-family: 'DSariMedium';
-  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000");
-  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000?#iefix") format("embedded-opentype"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff2?v=1472056067000") format("woff2"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff?v=1472056065000") format("woff"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.ttf?v=1472056063000") format("truetype");
-}
-
 /* ########## style.less ############################################
  *
  * This file is for everything that's REALLY site specific, not
@@ -36,11 +24,6 @@
   font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: italic;
-}
-.brush {
-  font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 .small {
   font-size: 0.8rem;
@@ -748,7 +731,7 @@ br[clear="all"] {
 a,
 a:link,
 a:visited {
-  color: #eb302e;
+  color: #ef662f;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -756,14 +739,14 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #ee504f;
+  color: #000000;
   font-weight: normal;
   font-style: normal;
   text-decoration: underline;
   outline: none;
 }
 a:active {
-  color: #e91917;
+  color: #000000;
   outline: none;
 }
 /* ---------- headings ---------------------------------------------- */
@@ -774,7 +757,7 @@ h1 {
   font-family: "DSariHeavy", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #eb302e;
+  color: #ef662f;
   text-decoration: none;
   text-align: center;
   word-wrap: break-word;
@@ -793,9 +776,8 @@ h2 {
   font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #eb302e;
+  color: #ef662f;
   text-decoration: none;
-  text-transform: uppercase;
 }
 @media screen and (min-width: 780px) {
   h2 {
@@ -1180,7 +1162,7 @@ a.button,
   white-space: normal;
   text-align: center;
   display: block;
-  background: url("../images/button_grunge_bg.png") no-repeat left bottom #eb302e;
+  background: url("../images/button_grunge_bg.png") no-repeat left bottom #ef662f;
   background-position: right -600px bottom;
   padding: 1.8125rem 0.5em;
   color: #ffffff;
@@ -1188,7 +1170,7 @@ a.button,
   box-sizing: border-box;
   border-radius: 0.5rem;
 }
-.panel-button a.button {
+.panel-button a.button, button.submitbutton {
   border: solid 5px #ef662f;
 }
 input[type="submit"]:hover,
@@ -1205,11 +1187,11 @@ button:focus,
 a.button:focus,
 .ui-body-o a.button:hover,
 .ui-body-o a.button:focus {
-  background-color: #D82921;
+  background-color: #000000;
   background-position: right bottom;
   color: #ffffff;
 }
-.panel-button a.button:hover, .panel-button a.button:active {
+.panel-button a.button:hover, .panel-button a.button:active, button.submitbutton:hover, button.submitbutton:active {
   background-color: #ffffff;
   color: #ef662f;
   border: solid 5px #ef662f;
@@ -1220,7 +1202,7 @@ input[type="reset"]:active,
 button:active,
 .button:active,
 a.button:active {
-  background-color: #D82921;
+  background-color: #000000;
   color: #ffffff;
   opacity: 0.9;
 }
@@ -1508,7 +1490,7 @@ div[id^="Marketing_permission"] .picker-radio {
   font-weight: 800;
   font-style: normal;
   color: #ffffff;
-  background-color: #eb302e;
+  background-color: #ef662f;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -1523,14 +1505,14 @@ div[id^="Marketing_permission"] .picker-radio {
 .validationError textarea,
 .validationError select,
 .validationError .selecter .selecter-selected {
-  border-color: #eb302e;
+  border-color: #ef662f;
 }
 .validationError .eaErrorMessage {
   padding: 0.4625rem 0.7rem 0.3625rem;
   margin: -0.1rem 0.1rem 0;
 }
 .eaFieldErrorHighlightColor {
-  background-color: #eb302e;
+  background-color: #ef662f;
   padding: 10px;
   color: #ffffff;
   margin-bottom: 10px;
@@ -1550,7 +1532,7 @@ div[id^="Marketing_permission"] .picker-radio {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
-  border: 1px dashed #eb302e;
+  border: 1px dashed #ef662f;
   border-radius: 4px;
 }
 .ea-error-block ul,
