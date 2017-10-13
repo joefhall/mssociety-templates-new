@@ -662,6 +662,13 @@ button:not(.small),
   margin-right: auto;
   zoom: 1;
 }
+.rowsof2 {
+  width: 88%;
+  max-width: 40rem;
+}
+.rowsof3 {
+  width: 100%;
+}
 .panels:before,
 .panels:after {
   content: "";
@@ -1021,13 +1028,22 @@ hr.red {
 }
 @media screen and (min-width: 780px) {
   .panel {
-    width: 32%;
     max-width: none;
     float: left;
     margin: 1.45rem 2%;
     margin-left: 0;
   }
-  .panel:nth-child(3n) {
+  .rowsof2 .panel {
+    width: 48%;
+    margin-left: 0;
+  }
+  .rowsof3 .panel {
+    width: 32%;
+  }
+  .rowsof2 .panel:nth-child(odd) {
+    margin-left: 0;
+  }
+  .rowsof2 .panel:nth-child(even), .rowsof3 .panel:nth-child(3n) {
     margin-right: 0;
   }
 }
