@@ -1461,6 +1461,13 @@ div[id^="Marketing_permission"] .picker-radio {
   background: none #ffffff;
   padding-right: 2.5rem;
   min-height: 2.9rem;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  text-overflow: clip;
+  z-index: 49;
 }
 .selecter .selecter-selected:after {
   content: '';
@@ -1481,13 +1488,44 @@ div[id^="Marketing_permission"] .picker-radio {
 .selecter .selecter-options {
   border: 0.1rem solid #060606;
   border-top: none;
+  background-color: #fefefe;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  display: none;
+  left: 0;
+  margin: 0;
+  max-height: 260px;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 50;
 }
 .selecter .selecter-item {
+  background: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 8px 10px;
+  text-overflow: ellipsis;
+  width: 100%;
   font-size: 1rem;
-  line-height: 1.45em;
-  margin-bottom: 1.45em;
   color: #060606;
-  margin-bottom: 0;
+}
+.selecter .selecter-item:first-child {
+    border-radius: 0;
+}
+.selecter .selecter-item.selected {
+    background: #F9F9F9;
+}
+@media screen and (min-width: 980px) {
+  .selecter .selecter-item.selected:hover, .selecter .selecter-item:hover {
+    background-color: #f3f3f3;
+  }
 }
 @media screen and (min-width: 560px) {
   .eaTripleSelectfield,
