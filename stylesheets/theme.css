@@ -1201,7 +1201,6 @@ button:focus,
 a.button:focus,
 .ui-body-o a.button:hover,
 .ui-body-o a.button:focus {
-  background-color: #000000;
   background-position: right bottom;
   color: #ffffff;
 }
@@ -1216,7 +1215,6 @@ input[type="reset"]:active,
 button:active,
 .button:active,
 a.button:active {
-  background-color: #000000;
   color: #ffffff;
   opacity: 0.9;
 }
@@ -1267,6 +1265,10 @@ select,
   width: 100%;
   border-radius: 0.3rem;
   box-sizing: border-box;
+}
+.selecter-element{
+  position:absolute;
+  opacity:0;
 }
 input[type="text"],
 input[type="email"],
@@ -1446,6 +1448,10 @@ div[id^="Marketing_permission"] .picker-radio {
 .selecter {
   max-width: 100%;
   margin-top: 0;
+  display: block;
+  margin: 10px 0;
+  position: relative;
+  z-index: 1;
 }
 .selecter .selecter-options,
 .selecter .selecter-item {
