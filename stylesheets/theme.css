@@ -1702,23 +1702,9 @@ ul.share-links .twitter span.icon {
 }
 /* Christmas donation page 2017 */
 a.button-xmas {
-  font-size: 1.4rem;
-  line-height: 1.03571429em;
-  margin-bottom: 1.03571429em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: normal;
-  text-align: center;
-  display: block;
-  background: #6b2b5f;
-  background-position: right -600px bottom;
-  padding: 1.8125rem 0.5em;
-  color: #ffffff;
-  border: none;
-  box-sizing: border-box;
-  border-radius: 0.5rem;
+  background-color: #6b2b5f !important;
+}
+#xmas-banner-image {
+  
 }
 
