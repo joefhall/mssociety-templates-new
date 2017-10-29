@@ -1,10 +1,3 @@
-/* ########## style.less ############################################
- *
- * This file is for everything that's REALLY site specific, not
- * layout specific
- *
- * Compile only this file to generate the ccs for the EN template!
- */
 .serif {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
@@ -96,7 +89,6 @@
     opacity: 1;
   }
 }
-/* ########## boilerplate.less ###################################### */
 /**
  * Reset CSS
  */
@@ -538,7 +530,7 @@ td {
 .clearfix {
   zoom: 1;
 }
-/* ########## layout.less ########################################### */
+
 /* ----------  Main Zentropy Layout Styles -------------------------- */
 .ahem,
 #skip-link {
@@ -655,30 +647,8 @@ button:not(.small),
   margin-left: auto;
   margin-right: auto;
 }
-/* ---------- panels ------------------------------------------------ */
-.panels {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  zoom: 1;
-}
-.rowsof2 {
-  width: 88%;
-  max-width: 40rem;
-}
-.rowsof3 {
-  width: 100%;
-}
-.panels:before,
-.panels:after {
-  content: "";
-  display: table;
-}
-.panels:after {
-  clear: both;
-}
 /* ==================================================================
- * basic html elements styled happily ever after
+ * basic html elements
  * ================================================================== */
 /* ---------- generic stuff ----------------------------------------- */
 html {
@@ -967,6 +937,27 @@ hr.red {
   }
 }
 /* ---------- panels ------------------------------------------------ */
+.panels {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+}
+.rowsof2 {
+  width: 88%;
+  max-width: 40rem;
+}
+.rowsof3 {
+  width: 100%;
+}
+.panels:before,
+.panels:after {
+  content: "";
+  display: table;
+}
+.panels:after {
+  clear: both;
+}
 .panel {
   max-width: 19.275rem;
   background-color: #efefef;
@@ -1048,15 +1039,6 @@ hr.red {
   }
 }
 /* ---------- lips -------------------------------------------------- */
-.lips-wrapper {
-  text-align: center;
-  padding: 1.45rem;
-}
-@media screen and (min-width: 560px) {
-  .lips-wrapper {
-    padding: 2.9rem;
-  }
-}
 @media screen and (min-width: 1150px) {
   #page.action h1:after {
     content: "";
@@ -1649,7 +1631,6 @@ div[id^="Marketing_permission"] .picker-radio {
 /* ==================================================================
  * sharing
  * ================================================================== */
-/* ---------- share buttons ----------------------------------------- */
 ul.share-links {
   max-width: 26.5em;
 }
