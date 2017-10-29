@@ -1736,7 +1736,7 @@ div.xmas-main {
   div.xmas-main {
     padding-left: 20%;
     padding-right: 20%;
-    width: 60%;
+    width: 60% !important;
   }
 }
 
