@@ -1719,6 +1719,7 @@ a.xmas-button-middle {
   .xmas-button-middle-container {
     background-image: url(https://joefhall.github.io/mssociety-templates-new/images/xmas-snowflakes.png);
     background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1729,6 +1730,7 @@ div.xmas-main {
   margin: 0;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 0 !important;
   width: 80% !important;
   max-width: 100% !important;
 }
@@ -1740,6 +1742,9 @@ div.xmas-main {
   }
 }
 
+#xmas-banner-image-holder {
+  text-align: center;
+}
 #xmas-banner-image {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -1807,6 +1812,7 @@ div.xmas-video {
 }
 .xmas-panel-content p {
   font-size: 16px !important;
+  height: auto !important;
 }
 
 .xmas-researcher-image {
@@ -1814,6 +1820,7 @@ div.xmas-video {
 }
 
 h3.xmas-h3 {
+  text-align: left;
   text-transform: none;
   color: #6b2b5f;
 }
@@ -1823,7 +1830,7 @@ h3.xmas-h3 {
   background-image: url(https://joefhall.github.io/mssociety-templates-new/images/xmas-footer.png);
   background-size: 200% auto;
   background-position: center bottom;
-  background-repeat: no-repeat;
+  background-repeat-y: no-repeat;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -1831,7 +1838,18 @@ h3.xmas-h3 {
 }
 @media only screen and (min-width: 641px) {
   #xmas-image-banner-footer {
+    min-height: 100px;
     background-size: 100% auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #xmas-image-banner-footer {
+    min-height: 150px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  #xmas-image-banner-footer {
+    min-height: 200px;
   }
 }
 
