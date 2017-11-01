@@ -1830,7 +1830,7 @@ h3.xmas-h3 {
   background-image: url(https://joefhall.github.io/mssociety-templates-new/images/xmas-footer.png);
   background-size: 200% auto;
   background-position: center bottom;
-  background-repeat-y: no-repeat;
+  background-repeat: no-repeat no-repeat;
   margin: 0;
   padding: 0;
   width: 100%;
