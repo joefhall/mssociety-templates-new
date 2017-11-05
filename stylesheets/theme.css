@@ -1818,6 +1818,32 @@ div.xmas-video {
 .xmas-researcher-image {
   text-align: center;
 }
+.xmas-researcher-rollover {
+  display: none;
+}
+.xmas-researcher-rollover-text {
+  position: relative;
+  padding: 15% 20% 10% 20%;
+  text-align: left;
+  color: #6b2b5f;
+  font-size: 10px;
+  line-height: 14px;
+}
+.xmas-researcher-rollover-text p {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .xmas-researcher-rollover-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .xmas-researcher-rollover-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 
 h3.xmas-h3 {
   text-align: left;
