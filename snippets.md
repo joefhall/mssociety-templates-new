@@ -175,3 +175,11 @@ Place this snippet on the thank you page to track submissions (it's hidden so it
 ```html
 <input type="hidden" name="track-submission" value="1">
 ```
+
+## Minify CSS
+
+To convert changes in `stylesheets/theme.css` to `stylesheets/theme.min.css` (which is the file actually used on our templates), use UglifyCSS to make the file size as small as possible.To
+
+If you haven't already, install UglifyCSS in a terminal window with the command `npm install uglifycss -g`
+
+After you have made changes to `stylesheets/theme.css`, run this command: `uglifycss stylesheets/theme.css > stylesheets/theme.min.css`
