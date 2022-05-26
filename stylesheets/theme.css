@@ -1,47 +1,136 @@
+@font-face {
+  font-family: SSStandard;
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ss-standard.eot?v=1471422387000");
+  src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ss-standard.eot?v=1471422387000#iefix") format("embedded-opentype"),
+    url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ss-standard.woff?v=1471422396000") format("woff"),
+    url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ss-standard.ttf?v=1471422393000") format("truetype"),
+    url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ss-standard.svg?v=1471422390000") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.sans,
+.serif {
+  font-weight: 400;
+  font-style: normal;
+}
+.sans,
+.sansb,
+.serif {
+  font-style: normal;
+}
+fieldset,
+hr,
+img,
+legend {
+  border: 0;
+}
+fieldset,
+hr,
+legend,
+nav ol,
+nav ul,
+ol,
+ul {
+  padding: 0;
+}
+.hidden,
+.invisible {
+  visibility: hidden;
+}
+a:active,
+a:focus,
+a:hover {
+  color: #191919;
+  outline: 0;
+}
+h1,
+pre {
+  word-wrap: break-word;
+}
+a,
+a:link,
+a:visited {
+  color: #ef662f;
+  text-decoration: none;
+}
+a,
+a:link,
+a:visited,
+h1,
+h2,
+ins {
+  text-decoration: none;
+}
+h3,
+h4 {
+  text-transform: none;
+}
+legend {
+  text-transform: uppercase;
+}
+.clearfix,
+.panels,
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer {
+  zoom: 1;
+}
+#footer:after,
+#header:after,
+#main:after,
+.clearfix:after,
+.ea-clear,
+.panels:after,
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after {
+  clear: both;
+}
 .serif {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: normal;
-  font-style: normal;
 }
-.sans {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+.sans,
+.sansb,
+.sansi,
+body,
+button,
+code,
+input,
+kbd,
+pre,
+samp,
+select,
+textarea {
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .sansb {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  font-style: normal;
+}
+.sansi,
+dfn,
+mark {
+  font-style: italic;
 }
 .sansi {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: italic;
+  font-weight: 400;
+}
+b,
+mark,
+strong {
+  font-weight: 700;
 }
 .small {
   font-size: 0.8rem;
   line-height: 1.3125em;
   margin-bottom: 1.8125em;
 }
+.big,
+h2 {
+  line-height: 1.43333333em;
+}
 .big {
   font-size: 1.5rem;
-  line-height: 1.43333333em;
   margin-bottom: 0.96666667em;
 }
 .element-invisible {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
-}
-.clearfix {
-  zoom: 1;
-}
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
 }
 .text-center {
   text-align: center;
@@ -52,21 +141,23 @@
 }
 @media screen and (max-width: 780px) {
   .hide-on-mobile {
-    display: none!important;
+    display: none !important;
   }
 }
 @media screen and (min-width: 780px) {
   .hide-on-desktop {
-    display: none!important;
+    display: none !important;
   }
+}
+#page.action .hide-on-actions,
+[hidden],
+audio:not([controls]) {
+  display: none;
 }
 .hide-on-actions {
   opacity: 0;
   -webkit-animation: 0.3s linear 1s forwards fadeIn;
   animation: 0.3s linear 1s forwards fadeIn;
-}
-#page.action .hide-on-actions {
-  display: none;
 }
 #page.not-action .hide-on-actions {
   -webkit-animation: none;
@@ -89,73 +180,70 @@
     opacity: 1;
   }
 }
-/**
- * Reset CSS
- */
-html,
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
 body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
 div,
-span,
-object,
-iframe,
+dl,
+dt,
+em,
+fieldset,
+figure,
+footer,
+form,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
+header,
+hgroup,
+html,
+i,
+iframe,
 img,
 ins,
 kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
 q,
 samp,
+section,
 small,
+span,
 strong,
 sub,
 sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
 table,
-caption,
 tbody,
-tfoot,
-thead,
-tr,
-th,
 td,
-article,
-aside,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
+tfoot,
+th,
+thead,
 time,
-mark,
-audio,
+tr,
+ul,
+var,
 video {
   margin: 0;
   padding: 0;
@@ -163,11 +251,19 @@ video {
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
+  background: 0 0;
 }
-/**
- * Normalize CSS
- */
+blockquote,
+hr,
+ol,
+ul {
+  margin: 1.45rem 0;
+}
+ins,
+mark {
+  background: #fff;
+  color: #191919;
+}
 article,
 aside,
 details,
@@ -184,118 +280,61 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
 }
-audio:not([controls]) {
-  display: none;
+.ir,
+hr {
+  display: block;
 }
-[hidden] {
-  display: none;
-}
-/* =============================================================================
-   Base
-   ========================================================================== */
-/*
- * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
- * 2. Force vertical scrollbar in non-IE
- * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
- */
 html {
-  font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-  font-size: 100%;
-  line-height: 1.45rem;
 }
 body,
 button,
 input,
 select,
 textarea {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #060606;
+  color: #191919;
 }
-/* =============================================================================
-   Links
-   ========================================================================== */
-/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
-a:hover,
-a:active {
-  outline: 0;
-}
-/* =============================================================================
-   Typography
-   ========================================================================== */
 abbr[title] {
   border-bottom: 1px dotted;
 }
-b,
-strong {
-  font-weight: bold;
+a:focus,
+a:hover,
+body,
+h1 {
+  font-weight: 400;
 }
-blockquote {
-  margin: 1.45rem 0;
-}
-dfn {
-  font-style: italic;
-}
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  margin: 1.45rem 0;
-  padding: 0;
-}
-ins {
-  background: #ffffff;
-  color: #060606;
-  text-decoration: none;
-}
-mark {
-  background: #ffffff;
-  color: #060606;
-  font-style: italic;
-  font-weight: bold;
-}
-/* Redeclare monospace font family: h5bp.com/j */
-pre,
 code,
 kbd,
+pre,
 samp {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  _font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
-/* Improve readability of pre-formatted text in all browsers */
+small,
+sub,
+sup {
+  font-size: 0.8rem;
+  margin-bottom: 1.8125em;
+}
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word;
 }
 q {
   quotes: none;
 }
-q:before,
-q:after {
+q:after,
+q:before {
   content: "";
   content: none;
 }
 small {
-  font-size: 0.8rem;
   line-height: 1.3125em;
-  margin-bottom: 1.8125em;
 }
-/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
 sub,
 sup {
-  font-size: 0.8rem;
-  line-height: 1.3125em;
-  margin-bottom: 1.8125em;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -306,77 +345,29 @@ sup {
 sub {
   bottom: -0.25em;
 }
-/* =============================================================================
-   Lists
-   ========================================================================== */
-ul,
-ol {
-  margin: 1.45rem 0;
-  padding: 0;
-}
-dd {
-  margin: 0;
-}
-nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none;
-  margin: 0;
-  padding: 0;
-}
-/* =============================================================================
-   Embedded content
-   ========================================================================== */
-/*
- * 1. Improve image quality when scaled in IE7: h5bp.com/d
- * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
- */
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-  vertical-align: middle;
-}
-/*
- * Correct overflow not hidden in IE9 
- */
-svg:not(:root) {
-  overflow: hidden;
-}
-/* =============================================================================
-   Figures
-   ========================================================================== */
-figure {
-  margin: 0;
-}
-/* =============================================================================
-   Forms
-   ========================================================================== */
+dd,
+figure,
 form {
   margin: 0;
 }
-fieldset {
-  border: 0;
+nav ol,
+nav ul {
+  list-style: none;
   margin: 0;
-  padding: 0;
 }
-/* Indicate that 'label' will shift focus to the associated form element */
+img {
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+fieldset {
+  margin: 0;
+}
 label {
   cursor: pointer;
 }
-/* 
- * 1. Correct color not inheriting in IE6/7/8/9 
- * 2. Correct alignment displayed oddly in IE6/7 
- */
-legend {
-  border: 0;
-  *margin-left: -7px;
-  padding: 0;
-}
-/*
- * 1. Correct font-size not inheriting in all browsers
- * 2. Remove margins in FF3/4 S5 Chrome
- * 3. Define consistent vertical alignment display in all browsers
- */
 button,
 input,
 select,
@@ -384,46 +375,30 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  *vertical-align: middle;
 }
-/*
- * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
- * 2. Correct inner spacing displayed oddly in IE6/7
- */
+td,
+textarea {
+  vertical-align: top;
+}
 button,
 input {
   line-height: normal;
-  *overflow: visible;
 }
-/*
- * Reintroduce inner spacing in 'table' to avoid overlap and whitespace issues in IE6/7
- */
-table button,
-table input {
-  *overflow: auto;
-}
-/*
- * 1. Display hand cursor for clickable form elements
- * 2. Allow styling of clickable form elements in iOS
- */
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
 button:focus,
+button:hover,
+input[type="button"],
 input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"],
 input[type="reset"]:focus,
-input[type="submit"]:focus {
+input[type="reset"]:hover,
+input[type="submit"],
+input[type="submit"]:focus,
+input[type="submit"]:hover {
   cursor: pointer;
   -webkit-appearance: button;
 }
-/*
- * Consistent box sizing and appearance
- */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -432,79 +407,61 @@ input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-/* 
- * Remove inner padding and border in FF3/4: h5bp.com/l 
- */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* 
- * 1. Remove default vertical scrollbar in IE6/7/8/9 
- * 2. Allow only vertical resizing
- */
 textarea {
   overflow: auto;
-  vertical-align: top;
   resize: vertical;
 }
-/* Colors for form validity */
+.ir,
+.visuallyhidden {
+  border: 0;
+  overflow: hidden;
+}
 input:invalid,
 textarea:invalid {
-  background-color: #ffffff;
+  background-color: #fff;
 }
-/* =============================================================================
-   Tables
-   ========================================================================== */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
 }
 td {
-  vertical-align: top;
   padding: 5px;
 }
-/**
- * non-semantic helper classes
- */
-/* For image replacement */
 .ir {
-  display: block;
-  border: 0;
   text-indent: -999em;
-  overflow: hidden;
   background-color: transparent;
   background-repeat: no-repeat;
   text-align: left;
   direction: ltr;
 }
+.one-of-two,
+h1 {
+  text-align: center;
+}
 .ir br {
   display: none;
 }
-/* Hide from both screenreaders and browsers:h5bp.com/u */
 .hidden {
   display: none !important;
-  visibility: hidden;
 }
-/* Hide only visually, but have it available for screenreaders:h5bp.com/v */
 .visuallyhidden {
-  border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
   margin: -1px;
-  overflow: hidden;
   padding: 0;
   position: absolute;
   width: 1px;
 }
-/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard:h5bp.com/p */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -514,43 +471,24 @@ td {
   position: static;
   width: auto;
 }
-/* Hide visually and from screenreaders, but maintain layout */
-.invisible {
-  visibility: hidden;
-}
-/* Contain floats:h5bp.com/q */
-.clearfix:before,
-.clearfix:after {
+.clearfix:after,
+.clearfix:before {
   content: "";
   display: table;
 }
-.clearfix:after {
-  clear: both;
-}
-.clearfix {
-  zoom: 1;
-}
-
-/* ----------  Main Zentropy Layout Styles -------------------------- */
+#skip-link,
 .ahem,
-#skip-link {
-  display: none;
-}
 .js .js-hidden {
   display: none;
 }
-/* ==================================================================
- * Single Column Layout
- * ================================================================== */
 #page {
   width: 100%;
   margin: 0;
   overflow: hidden;
 }
-/* ---------- header, main, footer ---------------------------------- */
+#footer,
 #header,
-#main,
-#footer {
+#main {
   clear: both;
   overflow: visible;
   position: relative;
@@ -559,19 +497,14 @@ td {
   margin-right: auto;
   zoom: 1;
 }
-#header:before,
-#main:before,
+#footer:after,
 #footer:before,
 #header:after,
+#header:before,
 #main:after,
-#footer:after {
+#main:before {
   content: "";
   display: table;
-}
-#header:after,
-#main:after,
-#footer:after {
-  clear: both;
 }
 #header,
 #main {
@@ -582,7 +515,6 @@ td {
   width: 86.6%;
   max-width: 40rem;
 }
-/* ---------- "normal" content -------------------------------------- */
 .eaLeftColumnContent,
 .eaRightColumnContent {
   width: 88%;
@@ -590,85 +522,83 @@ td {
   margin-left: auto;
   margin-right: auto;
 }
-.eaLeftColumnContent img:not(.inline):not(.ui-datepicker-trigger),
-.eaRightColumnContent img:not(.inline):not(.ui-datepicker-trigger),
-.eaLeftColumnContent video,
-.eaRightColumnContent video,
 .eaLeftColumnContent .video,
-.eaRightColumnContent .video {
+.eaLeftColumnContent img:not(.inline):not(.ui-datepicker-trigger),
+.eaLeftColumnContent video,
+.eaRightColumnContent .video,
+.eaRightColumnContent img:not(.inline):not(.ui-datepicker-trigger),
+.eaRightColumnContent video {
   display: block;
   width: 28rem;
   max-width: 113.64%;
   margin-left: -6.82%;
 }
 @media screen and (min-width: 560px) {
-  .eaLeftColumnContent img:not(.inline):not(.ui-datepicker-trigger),
-  .eaRightColumnContent img:not(.inline):not(.ui-datepicker-trigger),
-  .eaLeftColumnContent video,
-  .eaRightColumnContent video,
   .eaLeftColumnContent .video,
-  .eaRightColumnContent .video {
+  .eaLeftColumnContent img:not(.inline):not(.ui-datepicker-trigger),
+  .eaLeftColumnContent video,
+  .eaRightColumnContent .video,
+  .eaRightColumnContent img:not(.inline):not(.ui-datepicker-trigger),
+  .eaRightColumnContent video {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+  .panel .panel-content {
+    min-height: 5.8rem;
+  }
 }
 @media screen and (max-width: 560px) {
   .eaLeftColumnContent .video,
-  .eaRightColumnContent .video,
-  .eaLeftColumnContent .youtube,
-  .eaRightColumnContent .youtube,
   .eaLeftColumnContent .vimeo,
-  .eaRightColumnContent .vimeo {
+  .eaLeftColumnContent .youtube,
+  .eaRightColumnContent .video,
+  .eaRightColumnContent .vimeo,
+  .eaRightColumnContent .youtube {
     padding-bottom: 63.9225%;
   }
 }
-/* ---------- form fields, buttons ---------------------------------- */
-.form-content,
-.eaFormField,
-[class$=FormFieldContainer],
-.eaFormElementLabel,
-.eaQuestionLabel,
 .eaErrorMessage,
-.eaSwitchSubjectContainer,
-.eaSenderMailTemplate,
 .eaFormElementLabel,
-.share-links {
+.eaFormField,
+.eaQuestionLabel,
+.eaSenderMailTemplate,
+.eaSwitchSubjectContainer,
+.form-content,
+.share-links,
+[class$="FormFieldContainer"] {
   display: block;
   max-width: 28rem;
   margin-left: auto;
   margin-right: auto;
 }
 .button:not(.small),
-button:not(.small),
-.eaSubmitButton {
+.eaSubmitButton,
+button:not(.small) {
   width: 98%;
   max-width: 26.5rem;
   margin-left: auto;
   margin-right: auto;
 }
-/* ==================================================================
- * basic html elements
- * ================================================================== */
-/* ---------- generic stuff ----------------------------------------- */
+body,
+table,
+td {
+  margin: 0;
+}
 html {
   font-size: 20px;
 }
 body {
   background-color: #fff;
-  color: #060606;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  color: #191919;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.45em;
-  margin-bottom: 1.45em;
-  margin: 0;
 }
-p,
-ul,
+li,
 ol,
-li {
+p,
+ul {
   margin-bottom: 1.45rem;
 }
 li {
@@ -679,16 +609,15 @@ video {
   max-width: 100%;
   height: auto;
 }
-table,
-td {
-  margin: 0;
-}
-/* ---------- EN specifics ------------------------------------------ */
 .ea-clear {
   width: 100%;
   height: 1px;
-  margin: 0 0 -1px 0;
-  clear: both;
+  margin: 0 0 -1px;
+}
+h4,
+h5,
+h6 {
+  margin-bottom: 1.45em;
 }
 .ea-hidden {
   display: none;
@@ -697,112 +626,67 @@ td {
   visibility: hidden;
   display: inline;
 }
-.eaLeftColumnFiller,
-.eaRightColumnFiller,
 .eaFullWidthFiller,
 .eaLabelSpacer,
+.eaLeftColumnFiller,
+.eaRightColumnFiller,
 br[clear="all"] {
   display: none;
 }
-/* ---------- links ------------------------------------------------- */
 a,
 a:link,
 a:visited {
-  color: #ef662f;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  text-decoration: none;
-  outline: none;
+  outline: 0;
 }
-a:hover,
-a:focus {
-  color: #000000;
-  font-weight: normal;
+a:focus,
+a:hover {
   font-style: normal;
   text-decoration: underline;
-  outline: none;
 }
-a:active {
-  color: #000000;
-  outline: none;
-}
-/* ---------- headings ---------------------------------------------- */
 h1 {
-  font-size: 1.75rem;
+  color: #d14900;
+  font-size: 36px;
   line-height: 1.28888889em;
   margin-bottom: 0.64444444em;
-  font-family: "DSariHeavy", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  margin-top: 50px;
+  font-family: DSariHeavy, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  color: #ef662f;
-  text-decoration: none;
-  text-align: center;
-  word-wrap: break-word;
+}
+.button,
+a.button,
+button,
+h2,
+h3,
+h4,
+h5,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+legend {
+  font-weight: 800;
+  font-style: normal;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width: 780px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 36px;
     line-height: 1.28888889em;
     margin-bottom: 0.32222222em;
   }
 }
 h2 {
-  font-size: 1.5rem;
-  line-height: 1.43333333em;
+  color: #6e2b61;
+  font-size: 30px;
   margin-bottom: 0.96666667em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #ef662f;
-  text-decoration: none;
 }
 @media screen and (min-width: 780px) {
   h2 {
-    font-size: 3.75rem;
+    font-size: 30px;
     line-height: 1.16em;
     margin-bottom: 0.38666667em;
   }
-}
-h3,
-legend {
-  font-size: 1.25rem;
-  line-height: 1.16em;
-  margin-bottom: 1.16em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #060606;
-  text-transform: uppercase;
-}
-h4 {
-  font-size: 1rem;
-  line-height: 1.45em;
-  margin-bottom: 1.45em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #060606;
-  text-transform: uppercase;
-}
-h5 {
-  font-size: 1rem;
-  line-height: 1.45em;
-  margin-bottom: 1.45em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #060606;
-}
-h6 {
-  font-size: 1rem;
-  line-height: 1.45em;
-  margin-bottom: 1.45em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #060606;
-}
-@media screen and (min-width: 780px) {
   h2,
   h3,
   h4,
@@ -811,63 +695,80 @@ h6 {
     text-align: center;
   }
 }
-/* ---------- videos ------------------------------------------------ */
+h3 {
+  color: #4f758b;
+  font-size: 24px;
+  line-height: 1.16em;
+  margin-bottom: 12px;
+  margin-top: 80px;
+}
+legend {
+  font-size: 1.25rem;
+  line-height: 1.16em;
+  margin-bottom: 1.16em;
+  color: #191919;
+}
+.panel h1,
+.panel h2,
+.panel h3,
+h5,
+h6 {
+  font-size: 1rem;
+  line-height: 1.45em;
+  color: #191919;
+}
+h4 {
+  color: #191919;
+  font-size: 20px;
+  line-height: 1.45em;
+}
+h6 {
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .video,
-.youtube,
-.vimeo {
+.vimeo,
+.youtube {
   position: relative;
   padding-bottom: 56.25%;
-  /* 16:9 */
   height: 0;
   overflow: hidden;
-  background: transparent;
+  background: 0 0;
   margin-bottom: 1.45rem;
 }
-.video iframe,
-.youtube iframe,
-.vimeo iframe,
-.video object,
-.youtube object,
-.vimeo object,
 .video embed,
+.video iframe,
+.video object,
+.vimeo embed,
+.vimeo iframe,
+.vimeo object,
 .youtube embed,
-.vimeo embed {
+.youtube iframe,
+.youtube object {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-/* ---------- separators -------------------------------------------- */
 hr {
-  background: url("../images/separator_black.png") no-repeat left bottom transparent;
+  background: url(../images/separator_black.png) left bottom no-repeat;
   height: 1.45rem;
 }
 h1 ~ hr {
   background-position: center bottom;
-  background-image: url("../images/separator_red.png");
+  background-image: url(../images/separator_red.png);
 }
 hr h3 + hr {
   margin-top: -1rem;
 }
-@media screen and (min-width: 780px) {
-  hr {
-    background-position: center bottom;
-  }
-  hr + h2 {
-    margin-bottom: 2.175rem;
-  }
-}
 hr.black {
-  background-image: url("../images/separator_black.png");
+  background-image: url(../images/separator_black.png);
 }
 hr.red {
-  background-image: url("../images/separator_red.png");
+  background-image: url(../images/separator_red.png);
 }
-/* ==================================================================
- * top to bottom styling
- * ================================================================== */
-/* ---------- header ------------------------------------------------ */
 #header .button {
   position: absolute;
   top: 0;
@@ -879,21 +780,6 @@ hr.red {
   #header .button {
     padding: 0.725rem;
   }
-}
-@media screen and (min-width: 780px) {
-  #header .button {
-    margin-top: 1.0875rem;
-    margin-right: 0;
-  }
-}
-/* ---------- main -------------------------------------------------- */
-#main {
-  padding-bottom: 4.35rem;
-}
-#banner {
-  margin-bottom: 2rem;
-}
-@media screen and (max-width: 560px) {
   #banner.left-on-mobile,
   #banner.middle-on-mobile,
   #banner.right-on-mobile {
@@ -915,8 +801,25 @@ hr.red {
     margin-left: -85%;
   }
 }
+@media screen and (min-width: 780px) {
+  hr {
+    background-position: center bottom;
+  }
+  hr + h2 {
+    margin-bottom: 2.175rem;
+  }
+  #header .button {
+    margin-top: 1.0875rem;
+    margin-right: 0;
+  }
+}
+#main {
+  padding-bottom: 4.35rem;
+}
+#banner {
+  margin-bottom: 2rem;
+}
 .one-of-two {
-  text-align: center;
   margin-bottom: 1.45rem;
 }
 @media screen and (min-width: 780px) {
@@ -928,20 +831,19 @@ hr.red {
     margin: 0;
   }
   #banner .one-of-two:nth-child(odd) {
-    padding: 0;
-    padding-right: 0.725rem;
+    padding: 0 0.725rem 0 0;
   }
   #banner .one-of-two:nth-child(even) {
-    padding: 0;
-    padding-left: 0.725rem;
+    padding: 0 0 0 0.725rem;
   }
 }
-/* ---------- panels ------------------------------------------------ */
+.panel,
 .panels {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  zoom: 1;
+}
+.panels {
+  width: 100%;
 }
 .rowsof2 {
   width: 88%;
@@ -950,13 +852,10 @@ hr.red {
 .rowsof3 {
   width: 100%;
 }
-.panels:before,
-.panels:after {
+.panels:after,
+.panels:before {
   content: "";
   display: table;
-}
-.panels:after {
-  clear: both;
 }
 .panel {
   max-width: 19.275rem;
@@ -964,37 +863,32 @@ hr.red {
   border-radius: 0.5rem;
   overflow: hidden;
   margin-bottom: 1.45rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 .panel h1,
 .panel h2,
 .panel h3 {
-  font-size: 1rem;
-  line-height: 1.45em;
   margin-bottom: 1.45em;
-  color: #060606;
   text-align: left;
 }
-.panel p,
+.panel dl,
 .panel ol,
-.panel ul,
-.panel dl {
+.panel p,
+.panel ul {
   font-size: 0.8rem;
   line-height: 1.3125em;
   margin-bottom: 1.8125em;
 }
+.panel dl,
 .panel h1,
 .panel h2,
 .panel h3,
 .panel h4,
 .panel h5,
 .panel h6,
-.panel p,
+.panel li,
 .panel ol,
-.panel ul,
-.panel dl,
-.panel li {
+.panel p,
+.panel ul {
   margin: 0.8rem 0;
 }
 .panel .panel-image {
@@ -1004,11 +898,6 @@ hr.red {
 }
 .panel .panel-content {
   padding: 0 1rem 1.6rem;
-}
-@media screen and (min-width: 560px) {
-  .panel .panel-content {
-    min-height: 5.8rem;
-  }
 }
 .panel .button.small {
   width: 100%;
@@ -1021,8 +910,7 @@ hr.red {
   .panel {
     max-width: none;
     float: left;
-    margin: 1.45rem 2%;
-    margin-left: 0;
+    margin: 1.45rem 2% 1.45rem 0;
   }
   .rowsof2 .panel {
     width: 48%;
@@ -1034,32 +922,29 @@ hr.red {
   .rowsof2 .panel:nth-child(odd) {
     margin-left: 0;
   }
-  .rowsof2 .panel:nth-child(even), .rowsof3 .panel:nth-child(3n) {
+  .rowsof2 .panel:nth-child(even),
+  .rowsof3 .panel:nth-child(3n) {
     margin-right: 0;
   }
 }
-/* ---------- lips -------------------------------------------------- */
 @media screen and (min-width: 1150px) {
+  #page.action .submitbutton:before,
   #page.action h1:after {
     content: "";
     width: 465px;
     height: 350px;
     display: block;
     position: absolute;
+  }
+  #page.action h1:after {
     right: 90%;
     margin-top: 5rem;
   }
   #page.action .submitbutton:before {
-    content: "";
-    width: 465px;
-    height: 350px;
-    display: block;
-    position: absolute;
     left: 90%;
     margin-top: -20rem;
   }
 }
-/* ---------- footer ------------------------------------------------ */
 #footer {
   font-size: 0.8rem;
   line-height: 1.8125em;
@@ -1079,7 +964,7 @@ hr.red {
   margin-bottom: 0.725rem;
 }
 #footer .menu a {
-  color: #060606;
+  color: #191919;
   text-decoration: underline;
   padding: 0.725rem 0;
 }
@@ -1121,18 +1006,14 @@ hr.red {
   #footer {
     padding-right: 6%;
   }
-  #footer p,
-  #footer .menu {
+  #footer .menu,
+  #footer p {
     padding-left: 180px;
   }
   #footer .ms-logo {
     float: left;
   }
 }
-/* ==================================================================
- * form styling
- * ================================================================== */
-/* ---------- general stuff ----------------------------------------- */
 .eaFormField {
   position: relative;
   margin-bottom: 1.0875rem;
@@ -1140,64 +1021,63 @@ hr.red {
 #SubmissionDiv {
   display: none;
 }
-/* ---------- buttons ----------------------------------------------- */
-input[type="submit"],
+.button,
+a.button,
+button,
 input[type="button"],
 input[type="reset"],
-button,
-a.button,
-.button {
+input[type="submit"] {
   font-size: 1.4rem;
   line-height: 1.03571429em;
   margin-bottom: 1.03571429em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   white-space: normal;
   text-align: center;
   display: block;
-  background: url("../images/button_grunge_bg.png") no-repeat left bottom #ef662f;
-  background-position: right -600px bottom;
+  background: url(../images/button_grunge_bg.png) right -600px bottom no-repeat #ef662f;
   padding: 1.8125rem 0.5em;
-  color: #ffffff;
+  color: #fff;
   border: none;
   box-sizing: border-box;
   border-radius: 0.5rem;
 }
-.panel-button a.button, button.submitbutton {
-  border: solid 5px #ef662f;
+.panel-button a.button,
+button.submitbutton {
+  border: 5px solid #ef662f;
 }
-input[type="submit"]:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-button:hover,
-.button:hover,
-a.button:hover,
-input[type="submit"]:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-button:focus,
 .button:focus,
-a.button:focus,
+.button:hover,
+.ui-body-o a.button:focus,
 .ui-body-o a.button:hover,
-.ui-body-o a.button:focus {
+a.button:focus,
+a.button:hover,
+button:focus,
+button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
   background-position: right bottom;
-  color: #ffffff;
+  color: #fff;
 }
-.panel-button a.button:hover, .panel-button a.button:active, button.submitbutton:hover, button.submitbutton:active {
-  background-color: #ffffff;
+.panel-button a.button:active,
+.panel-button a.button:hover,
+button.submitbutton:active,
+button.submitbutton:hover {
+  background-color: #fff;
   color: #ef662f;
-  border: solid 5px #ef662f;
+  border: 5px solid #ef662f;
 }
-input[type="submit"]:active,
+.button:active,
+a.button:active,
+button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
-button:active,
-.button:active,
-a.button:active {
-  color: #ffffff;
+input[type="submit"]:active {
+  color: #fff;
   opacity: 0.9;
 }
 a.button.small,
@@ -1210,103 +1090,105 @@ button.small {
   padding: 1.0875rem 1.6rem;
   border-radius: 0.25rem;
 }
-input.eaSubmitButton,
-.submitbutton {
-  margin-top: 2.175rem;
-  margin-bottom: 2.175rem;
-}
+.eaMessageSignoffContainer,
+.eaResetButton,
 input.eaResetButton,
-.eaResetButton {
-  display: none;
-}
 input.eaSubmitButton {
   display: none;
 }
-/* ---------- text input -------------------------------------------- */
-input[type="text"],
+.submitbutton,
+input.eaSubmitButton {
+  margin-top: 2.175rem;
+  margin-bottom: 2.175rem;
+}
+.selecter .selecter-selected,
 input[type="email"],
 input[type="number"],
 input[type="password"],
 input[type="search"],
 input[type="tel"],
+input[type="text"],
 input[type="url"],
-textarea,
 select,
-.selecter .selecter-selected {
+textarea {
   font-size: 1rem;
   line-height: 1.45em;
-  margin-bottom: 1.45em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 0;
-  background-color: #ffffff;
-  border: 0.1rem solid #060606;
-  color: #060606;
+  background-color: #fff;
+  border: 0.1rem solid #191919;
+  color: #191919;
   padding: 0.725rem 0.7rem;
   width: 100%;
   border-radius: 0.3rem;
   box-sizing: border-box;
 }
-.selecter-element{
-  position:absolute;
-  opacity:0;
+.selecter-element {
+  position: absolute;
+  opacity: 0;
 }
-input[type="text"],
+.eaQuestionSelectFormFieldContainer,
+.selecter {
+  position: relative;
+}
 input[type="email"],
 input[type="number"],
 input[type="password"],
 input[type="search"],
 input[type="tel"],
+input[type="text"],
 input[type="url"] {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
-input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
+input[type="text"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
   background-image: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-textarea,
-.eaMessagecontent,
 .eaMessageSubjectContainer input,
+.eaMessagecontent,
 .eaSwitchSubjectContainer input,
-.eaSwitchTemplateContainer input {
+.eaSwitchTemplateContainer input,
+textarea {
   font-size: 100%;
 }
-textarea,
-.eaMessageContent {
+.eaMessageContent,
+textarea {
   min-height: 15em;
 }
-.eaMessageSignoffContainer {
-  display: none;
-}
-.eaSwitchSubjectContainer,
-.eaSenderMailTemplate {
+.eaSenderMailTemplate,
+.eaSwitchSubjectContainer {
   margin-bottom: 1.0875rem;
 }
-/* ---------- label, legend, description --------------------------- */
-label,
 .eaFormElementLabel,
 .eaQuestionLabel,
-.picker .picker-label {
+.picker .picker-label,
+label {
   font-size: 1rem;
   line-height: 1.45em;
-  margin-bottom: 1.45em;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   display: block;
   margin-bottom: 0.3625rem;
-  color: #060606;
+  color: #191919;
+}
+.eaErrorMessage,
+.picker .picker-label {
+  font-weight: 800;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 .eaQuestionLabel {
   margin-bottom: 0.725rem;
@@ -1314,39 +1196,38 @@ label,
 .eaMandatoryFieldMarker {
   color: #d9362f;
 }
-/* ---------- checkbox & radio -------------------------------------- */
 input[type="checkbox"] {
   width: auto;
   margin-right: 5px;
 }
-.eaFormRadio,
 .eaFormCheckbox,
-.eaQuestionRadioFormFieldContainer,
-.eaQuestionCheckboxFormFieldContainer {
+.eaFormRadio,
+.eaQuestionCheckboxFormFieldContainer,
+.eaQuestionRadioFormFieldContainer {
   line-height: 0;
   margin-top: 1.0875rem;
   margin-bottom: 1.0875rem;
 }
-.eaFormRadio,
 .eaFormCheckbox,
-.eaQuestionRadio,
-.eaQuestionCheckbox {
+.eaFormRadio,
+.eaQuestionCheckbox,
+.eaQuestionRadio {
   display: block;
   margin-bottom: 0.3625rem;
 }
-.eaFormRadio input,
 .eaFormCheckbox input,
-.eaQuestionRadio input,
-.eaQuestionCheckbox input {
+.eaFormRadio input,
+.eaQuestionCheckbox input,
+.eaQuestionRadio input {
   float: left;
   margin-right: 5px;
   margin-top: 1px;
   height: 1.45rem;
 }
-.eaFormRadio label,
 .eaFormCheckbox label,
-.eaQuestionRadio label,
-.eaQuestionCheckbox label {
+.eaFormRadio label,
+.eaQuestionCheckbox label,
+.eaQuestionRadio label {
   margin-left: 24px;
 }
 .picker {
@@ -1356,25 +1237,22 @@ input[type="checkbox"] {
   float: none;
   display: block;
   margin-left: 2.175rem;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
 }
 .picker .picker-handle {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 1.45rem;
   width: 1.45rem;
-  border: 0.1rem solid #060606;
+  border: 0.1rem solid #191919;
 }
-.picker:hover .picker-label,
+.picker.focus .picker-label,
 .picker:focus .picker-label,
-.picker.focus .picker-label {
-  color: #060606;
+.picker:hover .picker-label {
+  color: #191919;
 }
-.picker:hover .picker-handle,
+.picker.focus .picker-handle,
 .picker:focus .picker-handle,
-.picker.focus .picker-handle {
-  border-color: #060606;
+.picker:hover .picker-handle {
+  border-color: #191919;
 }
 .picker.picker-radio .picker-handle {
   border-radius: 50%;
@@ -1386,17 +1264,15 @@ input[type="checkbox"] {
   margin: 9px;
   border-radius: 50%;
 }
-.picker.picker-radio.checked .picker-flag {
-  background-color: #060606;
-}
+.picker.picker-radio.checked .picker-flag,
 .picker.picker-radio.checked:hover .picker-flag {
-  background-color: #060606;
+  background-color: #191919;
 }
 .picker.picker-checkbox .picker-handle {
   border-radius: 0.3rem;
 }
 .picker.picker-checkbox.checked .picker-flag {
-  background: url("../images/checkbox_tick.png") no-repeat center center;
+  background: url(../images/checkbox_tick.png) center center no-repeat;
 }
 .picker.picker-checkbox.checked .picker-flag:before {
   content: "✓";
@@ -1405,16 +1281,10 @@ input[type="checkbox"] {
   padding: 3px;
   color: transparent;
 }
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer {
-  zoom: 1;
-}
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:before,
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after {
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after,
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:before {
   content: "";
   display: table;
-}
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after {
-  clear: both;
 }
 div[id^="Marketing_permission"] .eaQuestionRadio {
   margin: 0;
@@ -1423,24 +1293,18 @@ div[id^="Marketing_permission"] .picker-radio {
   float: left;
   margin-right: 1.5rem;
 }
-/* ---------- select ------------------------------------------------ */
-.eaQuestionSelectFormFieldContainer {
-  position: relative;
-}
 .selecter {
   max-width: 100%;
-  margin-top: 0;
   display: block;
   margin: 10px 0;
-  position: relative;
   z-index: 1;
 }
-.selecter .selecter-options,
-.selecter .selecter-item {
+.selecter .selecter-item,
+.selecter .selecter-options {
   box-sizing: border-box;
 }
 .selecter .selecter-selected {
-  background: none #ffffff;
+  background: #fff;
   padding-right: 2.5rem;
   min-height: 2.9rem;
   cursor: pointer;
@@ -1452,27 +1316,27 @@ div[id^="Marketing_permission"] .picker-radio {
   z-index: 49;
 }
 .selecter .selecter-selected:after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 0;
   border: 0.4rem solid transparent;
-  border-top: 0.6rem solid #060606;
+  border-top: 0.6rem solid #191919;
   margin-top: -0.3rem;
   position: absolute;
   top: 50%;
   right: 1rem;
 }
-.selecter.open .selecter-selected,
-.selecter.focus .selecter-selected {
+.selecter.focus .selecter-selected,
+.selecter.open .selecter-selected {
   border-radius: 0.3rem 0.3rem 0 0;
 }
 .selecter .selecter-options {
-  border: 0.1rem solid #060606;
+  border: 0.1rem solid #191919;
   border-top: none;
   background-color: #fefefe;
   border-radius: 0 0 3px 3px;
-  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   display: none;
   left: 0;
   margin: 0;
@@ -1496,16 +1360,17 @@ div[id^="Marketing_permission"] .picker-radio {
   text-overflow: ellipsis;
   width: 100%;
   font-size: 1rem;
-  color: #060606;
+  color: #191919;
 }
 .selecter .selecter-item:first-child {
-    border-radius: 0;
+  border-radius: 0;
 }
 .selecter .selecter-item.selected {
-    background: #F9F9F9;
+  background: #f9f9f9;
 }
 @media screen and (min-width: 980px) {
-  .selecter .selecter-item.selected:hover, .selecter .selecter-item:hover {
+  .selecter .selecter-item.selected:hover,
+  .selecter .selecter-item:hover {
     background-color: #f3f3f3;
   }
 }
@@ -1516,35 +1381,32 @@ div[id^="Marketing_permission"] .picker-radio {
     width: 30.3%;
   }
 }
-/* ---------- validation -------------------------------------------- */
+.eaErrorMessageHide,
+.eaValidationIcon {
+  display: none;
+}
 .eaAjaxErrorMessageContainer {
   text-align: left;
   margin-left: 20%;
   color: #d9362f;
 }
-.eaErrorMessageHide {
-  display: none;
-}
 .eaErrorMessage {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #ffffff;
+  color: #fff;
   background-color: #ef662f;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
-.validationError input[type="text"],
+.validationError .selecter .selecter-selected,
 .validationError input[type="email"],
 .validationError input[type="number"],
 .validationError input[type="password"],
 .validationError input[type="search"],
 .validationError input[type="tel"],
+.validationError input[type="text"],
 .validationError input[type="url"],
-.validationError textarea,
 .validationError select,
-.validationError .selecter .selecter-selected {
+.validationError textarea {
   border-color: #ef662f;
 }
 .validationError .eaErrorMessage {
@@ -1554,32 +1416,27 @@ div[id^="Marketing_permission"] .picker-radio {
 .eaFieldErrorHighlightColor {
   background-color: #ef662f;
   padding: 10px;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 10px;
 }
-.eaValidationIcon {
-  display: none;
-}
 .eaValidationIconImg {
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-top: 0;
+  margin-top: 0;
   width: 20px;
   height: 20px;
 }
 .ea-error-block {
   color: #d9362f;
-  margin: 1em 0px;
-  padding: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin: 1em 0;
+  padding: 0 10px;
   border: 1px dashed #ef662f;
   border-radius: 4px;
 }
-.ea-error-block ul,
 .ea-error-block ol,
-.ea-error-block p {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+.ea-error-block p,
+.ea-error-block ul {
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #d9362f;
   padding: 0;
@@ -1590,47 +1447,37 @@ div[id^="Marketing_permission"] .picker-radio {
   margin-bottom: 1.45rem;
 }
 #eaerrors a {
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   text-decoration: underline;
 }
-/* ---------- loading ----------------------------------------------- */
 .ea-loading {
   position: absolute;
   width: 30%;
   top: 200px;
   left: 35%;
   z-index: 200;
-  color: #060606;
-  font-family: "DSariMedium", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  color: #191919;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
-  padding: 10px 0px;
-  background-color: #ffffff;
-  border: 1px solid #060606;
+  padding: 10px 0;
+  background-color: #fff;
+  border: 1px solid #191919;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #666666;
+  box-shadow: 0 0 10px #666;
 }
 .ea-loading-spinner {
   width: 16px;
   height: 16px;
   background-image: url(https://e-activist.com/ea-demo/images/loading.gif);
   margin: 5px auto;
-  /* For web browsers that don't support RGBa */
-  background-color: #ffffff;
-  /* RGBa with 0.6 opacity */
+  background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
-  /* For IE 5.5 - 7*/
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff, endColorstr=#99ffffff);
-  /* For IE 8*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff, endColorstr=#99ffffff)";
 }
-/* ==================================================================
- * sharing
- * ================================================================== */
 ul.share-links {
   max-width: 26.5em;
 }
@@ -1648,7 +1495,6 @@ ul.share-links .button {
   ul.share-links .button {
     font-size: 1rem;
     line-height: 1.45em;
-    margin-bottom: 1.45em;
     width: auto;
     padding: 1.0875rem 1.6rem;
     margin-bottom: 0;
@@ -1663,7 +1509,7 @@ ul.share-links span.icon {
   top: 0;
   width: 65px;
   height: 65px;
-  background: url("../images/share_sprite.png") transparent;
+  background: url(../images/share_sprite.png);
 }
 ul.share-links i + span,
 ul.share-links span.icon + span {
@@ -1700,11 +1546,9 @@ ul.share-links .twitter span.icon {
     background-position: 5px -129px;
   }
 }
-
-/* Christmas donation page 2017 */
 a.xmas-button {
-  font-family: DSariMedium,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
-  font-weight: normal !important;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 400 !important;
   background-color: #6b2b5f !important;
   text-transform: none;
 }
@@ -1722,7 +1566,6 @@ a.xmas-button-middle {
     background-repeat: no-repeat;
   }
 }
-
 div.xmas-main {
   background-image: url(https://joefhall.github.io/mssociety-templates-new/images/xmas-header.png);
   background-size: 100% auto;
@@ -1734,14 +1577,6 @@ div.xmas-main {
   width: 80% !important;
   max-width: 100% !important;
 }
-@media only screen and (min-width: 641px) {
-  div.xmas-main {
-    padding-left: 20%;
-    padding-right: 20%;
-    width: 60% !important;
-  }
-}
-
 #xmas-banner-image-holder {
   text-align: center;
 }
@@ -1749,55 +1584,52 @@ div.xmas-main {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-
 h1.xmas-h1 {
-  font-family: DSariMedium,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: DSariMedium, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1rem;
   text-align: left;
 }
 @media only screen and (min-width: 641px) {
+  div.xmas-main {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60% !important;
+  }
   h1.xmas-h1 {
     font-size: 2rem;
   }
 }
-
 p.xmas-top-copy {
   font-size: 16px;
 }
-@media only screen and (min-width: 641px) {
-  p.xmas-top-copy {
-    font-size: 20px;
-  }
-}
-
 div.xmas-video {
   height: 10.5vw !important;
   margin-left: -12%;
   margin-right: -12%;
 }
 @media only screen and (min-width: 641px) {
+  p.xmas-top-copy {
+    font-size: 20px;
+  }
   div.xmas-video {
     height: 1.3vw !important;
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 48% !important;
-    border-radius: 4px 4px 4px 4px;
-    -moz-border-radius: 4px 4px 4px 4px;
-    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     border: 7px solid #f7fafc;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(186,186,186,1);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(186,186,186,1);
-    box-shadow: 2px 2px 5px 0px rgba(186,186,186,1);
+    -webkit-box-shadow: 2px 2px 5px 0 #bababa;
+    -moz-box-shadow: 2px 2px 5px 0 #bababa;
+    box-shadow: 2px 2px 5px 0 #bababa;
   }
 }
-
 @media screen and (min-width: 780px) {
   .xmas-panel {
     max-width: none;
     float: left;
-    margin: 1.45rem 2%;
-    margin-left: 0;
-    margin-bottom: 30px;
+    margin: 1.45rem 2% 30px 0;
   }
   .rowsof3 .xmas-panel {
     width: 32%;
@@ -1814,7 +1646,6 @@ div.xmas-video {
   font-size: 16px !important;
   height: auto !important;
 }
-
 .xmas-researcher-image {
   text-align: center;
 }
@@ -1823,7 +1654,7 @@ div.xmas-video {
 }
 .xmas-researcher-rollover-text {
   position: relative;
-  padding: 15% 20% 10% 20%;
+  padding: 15% 20% 10%;
   text-align: left;
   color: #6b2b5f;
   font-size: 10px;
@@ -1844,13 +1675,11 @@ div.xmas-video {
     line-height: 24px;
   }
 }
-
 h3.xmas-h3 {
   text-align: left;
   text-transform: none;
   color: #6b2b5f;
 }
-
 #xmas-image-banner-footer {
   min-height: 120px;
   background-image: url(https://joefhall.github.io/mssociety-templates-new/images/xmas-footer.png);
@@ -1878,7 +1707,6 @@ h3.xmas-h3 {
     min-height: 200px;
   }
 }
-
 .xmas-footer {
   background-color: #f0f0f0;
   width: 100% !important;
@@ -1889,10 +1717,9 @@ h3.xmas-h3 {
   padding-left: 10% !important;
   padding-right: 10% !important;
 }
-
 @media only screen and (max-width: 560px) {
   .xmas-fr-logo {
-    background-color: white !important;
+    background-color: #fff !important;
     display: block;
     width: 100%;
     height: 100px;
@@ -1904,6 +1731,61 @@ h3.xmas-h3 {
 }
 @media only screen and (min-width: 561px) {
   .xmas-fr-logo {
-      position: relative;
+    position: relative;
   }
+}
+input[type="checkbox"]:not(.pbo__input__checkbox),
+input[type="radio"]:not(.pbo__input__checkbox) {
+  -webkit-appearance: initial;
+  appearance: initial;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  background: #fff;
+  line-height: 0.875rem;
+  height: 20px;
+  width: 20px;
+}
+#EN__RootElement input[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+#EN__RootElement input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
+}
+input[type="checkbox"]:not(.pbo__input__checkbox):checked:after,
+input[type="radio"]:not(.pbo__input__checkbox):checked:after {
+  content: "✓";
+  color: #d14900;
+  font-family: SSStandard;
+  font-size: 10.4px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+input[type="checkbox"] ~ label,
+input[type="radio"] ~ label {
+  font-size: 16px;
+}
+.en__field--checkbox label {
+  display: inline;
+}
+.en__field--withOther input[type="radio"] ~ .en__field__label,
+.en__field__label {
+  width: 100% !important;
+}
+.en__field__input--other {
+  margin: -1px 0 0 0 !important;
+}
+input[type="radio"] ~ .en__field__label {
+  width: auto !important;
 }
