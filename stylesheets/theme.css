@@ -89,7 +89,7 @@ div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer {
 .clearfix:after,
 .ea-clear,
 .panels:after,
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after {
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer::after {
   clear: both;
 }
 
@@ -369,8 +369,8 @@ q {
   quotes: none;
 }
 
-q:after,
-q:before {
+q::after,
+q::before {
   content: "";
   content: none;
 }
@@ -545,8 +545,8 @@ h1 {
   width: auto;
 }
 
-.clearfix:after,
-.clearfix:before {
+.clearfix::after,
+.clearfix::before {
   content: "";
   display: table;
 }
@@ -575,12 +575,12 @@ h1 {
   zoom: 1;
 }
 
-#footer:after,
-#footer:before,
-#header:after,
-#header:before,
-#main:after,
-#main:before {
+#footer::after,
+#footer::before,
+#header::after,
+#header::before,
+#main::after,
+#main::before {
   content: "";
   display: table;
 }
@@ -980,8 +980,8 @@ hr.red {
   width: 100%;
 }
 
-.panels:after,
-.panels:before {
+.panels::after,
+.panels::before {
   content: "";
   display: table;
 }
@@ -1066,14 +1066,14 @@ hr.red {
 
 @media screen and (min-width: 1150px) {
   #page.action .submitbutton:before,
-  #page.action h1:after {
+  #page.action h1::after {
     content: "";
     width: 465px;
     height: 350px;
     display: block;
     position: absolute;
   }
-  #page.action h1:after {
+  #page.action h1::after {
     right: 90%;
     margin-top: 5rem;
   }
@@ -1466,8 +1466,8 @@ input[type="checkbox"] {
   color: transparent;
 }
 
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:after,
-div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer:before {
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer::after,
+div[id^="Marketing_permission"] .eaQuestionRadioFormFieldContainer::before {
   content: "";
   display: table;
 }
@@ -1506,7 +1506,7 @@ div[id^="Marketing_permission"] .picker-radio {
   z-index: 49;
 }
 
-.selecter .selecter-selected:after {
+.selecter .selecter-selected::after {
   content: "";
   display: block;
   width: 0;
@@ -2003,7 +2003,7 @@ input[type="checkbox"]:not(.pbo__input__checkbox) {
   z-index: 100;
 }
 
-input[type="checkbox"]:not(.pbo__input__checkbox):checked:after {
+input[type="checkbox"]:not(.pbo__input__checkbox):checked::after {
   content: "✓";
   color: #d14900;
   cursor: pointer;
