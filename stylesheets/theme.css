@@ -1990,16 +1990,31 @@ h3.xmas-h3 {
 input[type="checkbox"]:not(.pbo__input__checkbox) {
   -webkit-appearance: initial;
   appearance: initial;
-  position: relative;
-  z-index: 100;
+  background: #fff;
+  border: 2px solid #4a4a4a;
+  border-radius: 5px;
+  height: 27px;
+  line-height: 0.875rem;
   margin-bottom: 5px;
   margin-right: 5px;
-  border: 1px solid #4a4a4a;
-  border-radius: 5px;
-  background: #fff;
-  line-height: 0.875rem;
-  height: 20px;
-  width: 20px;
+  position: relative;
+  width: 27px;
+  z-index: 100;
+}
+
+input[type="checkbox"]:not(.pbo__input__checkbox):checked:after {
+  content: "✓";
+  color: #d14900;
+  font-family: SSStandard;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 input[type="radio"]:not(.pbo__input__checkbox) {
@@ -2026,6 +2041,11 @@ input[type="radio"]:checked+label::before {
   background-image: url(https://joefhall.github.io/mssociety-templates-new/images/radio-button-checked.svg);
 }
 
+input[type="checkbox"]~label,
+input[type="radio"]~label {
+  font-size: 20px;
+}
+
 #EN__RootElement input[type="radio"] {
   -webkit-appearance: radio;
   appearance: radio;
@@ -2034,26 +2054,6 @@ input[type="radio"]:checked+label::before {
 #EN__RootElement input[type="checkbox"] {
   -webkit-appearance: checkbox;
   appearance: checkbox;
-}
-
-input[type="checkbox"]:not(.pbo__input__checkbox):checked:after {
-  content: "✓";
-  color: #d14900;
-  font-family: SSStandard;
-  font-size: 10.4px;
-  font-weight: 700;
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-input[type="checkbox"]~label,
-input[type="radio"]~label {
-  font-size: 20px;
 }
 
 .en__field--checkbox label {
